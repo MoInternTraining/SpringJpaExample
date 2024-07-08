@@ -5,12 +5,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.stereotype.Component;
 
 import com.may.example.model.InternPerson;
 import com.may.example.repository.InternPersonRepository;
 import com.may.example.repository.filters.InternPersonFilter;
 import com.querydsl.core.types.dsl.BooleanExpression;
 
+@Component
 public class InternPersonQueryBean implements InternPersonQuery {
 
 	@Autowired

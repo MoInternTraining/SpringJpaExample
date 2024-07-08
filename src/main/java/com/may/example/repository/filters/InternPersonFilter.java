@@ -12,5 +12,13 @@ public class InternPersonFilter {
 	public static BooleanExpression withPhoneNo(String phoneNo) {
 		return QInternPerson.internPerson.phoneNo.eq(phoneNo);
 	}
+	
+	public static BooleanExpression withFirstName(String firstName) {
+		return QInternPerson.internPerson.firstName.eq(firstName);
+	}
+	
+	public static BooleanExpression noLastName(String lastString) {
+		return QInternPerson.internPerson.lastName.ne(lastString);
+	}
 
 }

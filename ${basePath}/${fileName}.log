@@ -1,0 +1,13 @@
+2024-06-04 16:19:15 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:19:15 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+2024-06-04 16:19:15 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$7b2957a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-04 16:19:15 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:19:15 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-04 16:19:15 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-04 16:19:15 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-04 16:19:16 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-04 16:19:16 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-04 16:19:16 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:19:16 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04 16:19:17 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : naungnaung@gmail.com/nPhone Number :09778660078
+2024-06-04 16:19:17 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : maythin@gmail.com/nPhone Number :09778661178

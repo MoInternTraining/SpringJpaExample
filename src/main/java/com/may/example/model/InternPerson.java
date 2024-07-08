@@ -1,5 +1,7 @@
 package com.may.example.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,10 +9,15 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "person")
-public class InternPerson {
+public class InternPerson implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	@Id
-	private int id;
+	private Long id;
 
 	@Column(name = "first_name")
 	private String firstName;
@@ -27,11 +34,11 @@ public class InternPerson {
 	@Column(name = "address")
 	private String address;
 
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -79,7 +86,7 @@ public class InternPerson {
 
 	}
 
-	public InternPerson(int id, String firstName, String lastName, String email, String phoneNo, String address) {
+	public InternPerson(Long id, String firstName, String lastName, String email, String phoneNo, String address) {
 		super();
 		this.id = id;
 		this.firstName = firstName;

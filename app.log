@@ -1,0 +1,523 @@
+2024-06-04 16:04:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:04:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+2024-06-04 16:04:44 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$b4ba6b6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-04 16:04:44 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:04:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-04 16:04:45 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-04 16:04:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-06-04 16:04:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-06-04 16:04:45 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-04 16:04:46 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:04:46 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04 16:04:46 [main] INFO  com.may.example.application.InternPersonApplication - Email : naungnaung@gmail.com/nPhone Number :09778660078
+2024-06-04 16:04:46 [main] INFO  com.may.example.application.InternPersonApplication - Email : maythin@gmail.com/nPhone Number :09778661178
+2024-06-04 16:23:41 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:23:41 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 53ms. Found 1 JPA repository interfaces.
+2024-06-04 16:23:41 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$8fb18533] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-04 16:23:42 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:23:42 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-04 16:23:42 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-04 16:23:42 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-04 16:23:42 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-04 16:23:42 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-04 16:23:43 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:23:43 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04 16:23:43 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : naungnaung@gmail.com/nPhone Number :09778660078
+2024-06-04 16:23:43 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : maythin@gmail.com/nPhone Number :09778661178
+2024-06-04 16:41:08 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:41:08 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 60ms. Found 1 JPA repository interfaces.
+2024-06-04 16:41:08 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$edd93bcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-04 16:41:08 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:41:08 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-04 16:41:08 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-04 16:41:08 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-04 16:41:09 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-04 16:41:09 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-04 16:41:09 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:41:09 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04 16:41:10 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : naungnaung@gmail.com
+Phone Number :09778660078
+2024-06-04 16:41:10 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-04 16:42:00 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:42:00 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 59ms. Found 1 JPA repository interfaces.
+2024-06-04 16:42:00 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$edd93bcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-04 16:42:00 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:42:00 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-04 16:42:00 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-04 16:42:00 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-04 16:42:00 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-04 16:42:00 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-04 16:42:01 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:42:01 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04 16:42:02 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-04 16:42:23 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:42:24 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 53ms. Found 1 JPA repository interfaces.
+2024-06-04 16:42:24 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$a8bc27f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-04 16:42:24 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:42:24 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-04 16:42:24 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-04 16:42:24 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-04 16:42:24 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-04 16:42:24 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-04 16:42:25 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:42:25 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-04 16:42:26 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-04 16:42:43 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-04 16:42:43 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 53ms. Found 1 JPA repository interfaces.
+2024-06-04 16:42:44 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$edd93bcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-04 16:42:44 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-04 16:42:44 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-04 16:42:44 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-04 16:42:44 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-04 16:42:44 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-04 16:42:44 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-04 16:42:45 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-04 16:42:45 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14 14:57:42 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-14 14:57:42 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 121ms. Found 1 JPA repository interfaces.
+2024-06-14 14:57:43 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$edd93bcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-14 14:57:43 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-14 14:57:43 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-14 14:57:43 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-14 14:57:44 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-14 14:57:44 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-14 14:57:44 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-14 14:57:45 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-14 14:57:45 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14 14:57:47 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-14 14:58:35 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-14 14:58:35 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 94ms. Found 1 JPA repository interfaces.
+2024-06-14 14:58:35 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$edd93bcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-14 14:58:35 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-14 14:58:35 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-14 14:58:36 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-14 14:58:36 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-14 14:58:36 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-14 14:58:36 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-14 14:58:37 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-14 14:58:37 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14 14:58:38 INFO     main:com.may.example.application.InternPersonApplication:26:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-19 13:46:34 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 13:46:34 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 13:46:34 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2024-06-19 13:46:34 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 13:46:34 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 13:46:34 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 13:46:34 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 13:46:35 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 13:46:35 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 13:46:35 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 13:46:36 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 13:46:36 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 13:46:36 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:03:26 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:03:26 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:03:26 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2024-06-19 14:03:26 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:03:27 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:03:27 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:03:27 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:03:27 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:03:27 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:03:27 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:03:28 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:03:28 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:03:29 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:08:30 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:08:30 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:08:30 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 60ms. Found 1 JPA repository interfaces.
+2024-06-19 14:08:30 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:08:30 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:08:30 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:08:30 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:08:30 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:08:30 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:08:30 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:08:31 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:08:31 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:08:32 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:09:33 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:09:33 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:09:33 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 59ms. Found 1 JPA repository interfaces.
+2024-06-19 14:09:33 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:09:34 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:09:34 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:09:34 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:09:34 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:09:34 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:09:34 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:09:35 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:09:35 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:09:36 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:11:12 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:11:12 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:11:12 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 58ms. Found 1 JPA repository interfaces.
+2024-06-19 14:11:13 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$554411da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:11:13 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:11:13 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:11:13 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:11:13 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:11:13 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:11:13 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:11:14 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:11:14 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:11:15 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:11:39 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:11:39 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:11:39 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+2024-06-19 14:11:40 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:11:40 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:11:40 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:11:40 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:11:40 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:11:40 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:11:40 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:11:41 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:11:41 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:11:42 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:12:57 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:12:57 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:12:57 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 61ms. Found 1 JPA repository interfaces.
+2024-06-19 14:12:57 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:12:58 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:12:58 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:12:58 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:12:58 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:12:58 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:12:58 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:12:59 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:12:59 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:13:00 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:13:57 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:13:57 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:13:57 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 60ms. Found 1 JPA repository interfaces.
+2024-06-19 14:13:58 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:13:58 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:13:58 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:13:58 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:13:58 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:13:58 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:13:58 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:13:59 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:13:59 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:14:00 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:14:45 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:14:45 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:14:45 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 59ms. Found 1 JPA repository interfaces.
+2024-06-19 14:14:45 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:14:45 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:14:45 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:14:45 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:14:45 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:14:45 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:14:45 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:14:46 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:14:46 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:14:47 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:14:47 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 
+2024-06-19 14:15:24 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:15:24 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:15:24 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 51ms. Found 1 JPA repository interfaces.
+2024-06-19 14:15:25 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$554411da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:15:25 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:15:25 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:15:25 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:15:25 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:15:25 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:15:25 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:15:26 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:15:26 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:15:27 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:15:27 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:16:41 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:16:41 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:16:42 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 59ms. Found 1 JPA repository interfaces.
+2024-06-19 14:16:42 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:16:42 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:16:42 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:16:42 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:16:42 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:16:42 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:16:42 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:16:43 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:16:43 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:16:44 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:16:44 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:17:38 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:17:38 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:17:38 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 59ms. Found 1 JPA repository interfaces.
+2024-06-19 14:17:38 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:17:38 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:17:38 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:17:38 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:17:39 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:17:39 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:17:39 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:17:40 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:17:40 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:17:40 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:17:41 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:19:44 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:19:44 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:19:45 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2024-06-19 14:19:45 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:19:45 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:19:45 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:19:45 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:19:45 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:19:45 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:19:46 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:19:46 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:19:46 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:19:47 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:19:47 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:20:52 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:20:52 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:20:53 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2024-06-19 14:20:53 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:20:53 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:20:53 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:20:53 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:20:53 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:20:54 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:20:54 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:20:54 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:20:54 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:20:55 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:20:55 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:22:35 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:22:35 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:22:35 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 58ms. Found 1 JPA repository interfaces.
+2024-06-19 14:22:35 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:22:35 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:22:36 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:22:36 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:22:36 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:22:36 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:22:36 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:22:37 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:22:37 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:22:37 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:22:38 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:24:25 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:24:25 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:24:25 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 56ms. Found 1 JPA repository interfaces.
+2024-06-19 14:24:25 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:24:26 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:24:26 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:24:26 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:24:26 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:24:26 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:24:26 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:24:27 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:24:27 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:24:28 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:24:28 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:28:11 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:28:11 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:28:11 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 76ms. Found 1 JPA repository interfaces.
+2024-06-19 14:28:12 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:28:12 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:28:12 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:28:12 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:28:12 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:28:12 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:28:12 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:28:13 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:28:13 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:28:14 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:28:14 INFO     main:com.may.example.application.InternPersonApplication:38:(main) - Retrieved person from Redis: null
+2024-06-19 14:28:55 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:28:55 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:28:56 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
+2024-06-19 14:28:56 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:28:56 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:28:56 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:28:56 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:28:56 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:28:57 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:28:57 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:28:57 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:28:57 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:28:58 INFO     main:com.may.example.application.InternPersonApplication:27:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-19 14:28:58 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:28:58 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:29:17 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:29:17 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:29:17 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2024-06-19 14:29:17 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:29:17 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:29:17 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:29:17 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:29:17 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:29:18 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:29:18 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:29:18 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:29:18 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:29:19 INFO     main:com.may.example.application.InternPersonApplication:27:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-19 14:29:19 INFO     main:com.may.example.application.InternPersonApplication:27:(lambda$0) - Email : maythin@gmail.com
+Phone Number :09778661178
+2024-06-19 14:29:19 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:29:19 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:30:23 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:30:23 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:30:23 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 56ms. Found 1 JPA repository interfaces.
+2024-06-19 14:30:24 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:30:24 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:30:24 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:30:24 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:30:24 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:30:24 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:30:24 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:30:25 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:30:25 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:30:26 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:30:26 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:30:26 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:30:26 INFO     main:com.may.example.application.InternPersonApplication:38:(main) - Retrieved person from Redis: InternPerson [id=2, firstName=May Thin, lastName=Khaing, email=maythin@gmail.com, phoneNo=09778661178, address=Taungoo]
+2024-06-19 14:34:36 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:34:36 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:34:36 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2024-06-19 14:34:37 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:34:37 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:34:37 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:34:37 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:34:37 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:34:37 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:34:37 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:34:38 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:34:38 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:34:39 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:34:39 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:34:39 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:35:12 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:35:12 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:35:12 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 60ms. Found 1 JPA repository interfaces.
+2024-06-19 14:35:12 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:35:12 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:35:12 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:35:12 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:35:12 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:35:13 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:35:13 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:35:13 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:35:13 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:35:14 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:35:14 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:35:14 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:35:14 INFO     main:com.may.example.application.InternPersonApplication:38:(main) - Retrieved person from Redis: null
+2024-06-19 14:38:05 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:38:05 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:38:05 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+2024-06-19 14:38:05 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:38:05 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:38:05 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:38:05 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:38:06 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:38:06 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:38:06 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:38:06 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:38:06 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:38:07 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:38:07 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:38:07 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:39:29 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:39:29 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:39:29 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 100ms. Found 1 JPA repository interfaces.
+2024-06-19 14:39:29 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:39:29 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:39:29 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:39:29 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:39:30 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:39:30 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:39:30 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:39:31 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:39:31 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:39:31 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:39:31 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:39:31 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:40:05 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:40:05 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:40:05 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2024-06-19 14:40:05 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:40:05 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:40:05 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:40:05 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:40:05 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:40:06 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:40:06 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:40:06 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:40:06 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:40:07 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:40:07 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:40:07 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:51:22 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:51:22 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:51:22 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 96ms. Found 1 JPA repository interfaces.
+2024-06-19 14:51:22 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:51:23 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:51:23 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:51:23 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:51:23 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:51:24 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:51:24 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:51:25 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:51:25 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:51:26 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:51:26 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:51:26 INFO     main:com.may.example.service.redis.RedisService:42:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:51:26 INFO     main:com.may.example.application.InternPersonApplication:38:(main) - Retrieved person from Redis: InternPerson [id=2, firstName=May Thin, lastName=Khaing, email=maythin@gmail.com, phoneNo=09778661178, address=Taungoo]
+2024-06-19 14:52:54 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:52:54 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:52:54 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 99ms. Found 1 JPA repository interfaces.
+2024-06-19 14:52:55 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:52:55 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:52:55 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:52:55 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:52:55 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:52:56 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:52:56 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:52:57 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:52:57 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:52:58 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:52:59 INFO     main:com.may.example.service.redis.RedisService:44:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:52:59 INFO     main:com.may.example.service.redis.RedisService:44:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:54:00 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:54:00 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:54:00 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 91ms. Found 1 JPA repository interfaces.
+2024-06-19 14:54:00 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:54:00 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:54:00 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:54:01 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:54:01 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:54:01 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:54:01 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:54:03 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:54:03 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:54:04 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:54:04 INFO     main:com.may.example.service.redis.RedisService:44:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:54:04 INFO     main:com.may.example.service.redis.RedisService:44:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:54:43 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:249:(multipleStoresDetected) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-06-19 14:54:43 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:127:(registerRepositoriesIn) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-19 14:54:43 INFO     main:org.springframework.data.repository.config.RepositoryConfigurationDelegate:187:(registerRepositoriesIn) - Finished Spring Data repository scanning in 98ms. Found 1 JPA repository interfaces.
+2024-06-19 14:54:43 INFO     main:org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335:(postProcessAfterInitialization) - Bean 'com.may.example.config.PersistenceJpaConfig' of type [com.may.example.config.PersistenceJpaConfig$$EnhancerBySpringCGLIB$$5775ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-19 14:54:44 INFO     main:org.hibernate.jpa.internal.util.LogHelper:31:(logPersistenceUnitInformation) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-19 14:54:44 INFO     main:org.hibernate.Version:44:(logVersion) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2024-06-19 14:54:44 INFO     main:org.hibernate.annotations.common.reflection.java.JavaReflectionManager:49:(<clinit>) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-19 14:54:44 INFO     main:com.zaxxer.hikari.HikariDataSource:110:(getConnection) - HikariPool-1 - Starting...
+2024-06-19 14:54:45 INFO     main:com.zaxxer.hikari.HikariDataSource:123:(getConnection) - HikariPool-1 - Start completed.
+2024-06-19 14:54:45 INFO     main:org.hibernate.dialect.Dialect:170:(<init>) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-06-19 14:54:46 INFO     main:org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52:(initiateService) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-19 14:54:46 INFO     main:org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:416:(buildNativeEntityManagerFactory) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-19 14:54:47 INFO     main:com.may.example.application.InternPersonApplication:34:(main) - Retrieved value from Redis: myValue
+2024-06-19 14:54:47 INFO     main:com.may.example.service.redis.RedisService:44:(cacheInternPersonInRedis) - Person ID: 1
+2024-06-19 14:54:47 INFO     main:com.may.example.service.redis.RedisService:44:(cacheInternPersonInRedis) - Person ID: 2
+2024-06-19 14:54:47 INFO     main:com.may.example.service.redis.RedisService:50:(cacheInternPersonInRedis) - Intern Person List: [InternPerson [id=1, firstName=May Thin, lastName=Khaing, email=maythin@gmail.com, phoneNo=09778661178, address=Taungoo], InternPerson [id=2, firstName=May Thin, lastName=Khaing, email=maythin@gmail.com, phoneNo=09778661178, address=Taungoo]]
+2024-06-19 14:54:47 INFO     main:com.may.example.application.InternPersonApplication:38:(main) - Retrieved person from Redis: InternPerson [id=2, firstName=May Thin, lastName=Khaing, email=maythin@gmail.com, phoneNo=09778661178, address=Taungoo]
